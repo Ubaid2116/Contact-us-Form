@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Contact Form Container */
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+/* Form Heading */
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Form Labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #eaeaea;
+    font-weight: 500;
+}
+
+/* Input, Textarea, Select */
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Hover effect for inputs */
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+    border-color: #ff6363;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 99, 99, 0.3);
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Styling */
+.contact-form button {
+    background-color: #ff6363;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+.contact-form button:hover {
+    background-color: #e05555;
+    box-shadow: 0 0 10px rgba(255, 99, 99, 0.5);
+}
+
+/* Footer */
+.contact-form .copyright {
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    color: #ccc;
+}
+
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 20px;
+    }
+}
